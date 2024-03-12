@@ -47,7 +47,7 @@ tasks.named('test') {
 // ESTO
 jar {
     manifest {
-        attributes 'Main-Class' : 'edu.badpals.stockx.Stockx',
+        attributes 'Main-Class' : 'edu.badpals.cotxox.Stockx',
                 'Package-Title' : 'stockx',
                 'Package-Version': '1.0',
                 'Package-Vendor' : 'evan',

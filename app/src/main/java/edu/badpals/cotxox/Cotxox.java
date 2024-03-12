@@ -1,11 +1,9 @@
-package org.foobarspam.cotxox;
+package edu.badpals.cotxox;
+
+import edu.badpals.cotxox.carrera.Carrera;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.foobarspam.cotxox.carrera.Carrera;
-import org.foobarspam.cotxox.conductores.Conductor;
-import org.foobarspam.cotxox.conductores.PoolConductores;
 
 public class Cotxox {
 
@@ -50,7 +48,7 @@ public class Cotxox {
          * para ofrecer el servicio.
          * La flota es un objeto de tipo PoolConductores.
          */
-
+/**
         List<Conductor> poolConductores = new ArrayList<Conductor>();
         Conductor conductor = null;
 
@@ -79,11 +77,11 @@ public class Cotxox {
         PoolConductores conductores = new PoolConductores(poolConductores);
 
         /* Seleccion del conductor en la flota y asignacion a la carrera */
-
+/**
         carrera.asignarConductor(conductores);
 
         // Info por pantalla
-
+/**
         System.out.println("Driver: " + carrera.getConductor().getNombre());
         System.out.println("Type: " + carrera.getConductor().getModelo());
         System.out.println("Matricula: " + carrera.getConductor().getMatricula());
@@ -117,5 +115,7 @@ public class Cotxox {
 
         System.out.println("Driver: " + carrera.getConductor().getNombre());
         System.out.println("Stars: " + carrera.getConductor().getValoracion());
+
+**/
     }
 }

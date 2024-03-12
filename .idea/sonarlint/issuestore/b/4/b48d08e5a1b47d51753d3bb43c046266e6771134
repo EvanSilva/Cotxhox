@@ -1,0 +1,35 @@
+
+Œ
+java:S4165"jRemove this useless assignment; "valoraciones" already holds the assigned value along all execution paths.(ÿ­ŒÜùÿÿÿÿ8šÿšã1
+†
+java:S4165"dRemove this useless assignment; "nombre" already holds the assigned value along all execution paths.(´ú´Üøÿÿÿÿ8šÿšã1
+
+java:S4165"mRemove this useless assignment; "valoracionMedia" already holds the assigned value along all execution paths.(˜°¿™ûÿÿÿÿ8šÿšã1
+‡
+java:S4165"eRemove this useless assignment; "ocupado" already holds the assigned value along all execution paths.(‚Ôã’øÿÿÿÿ8šÿšã1
+†
+java:S4165"dRemove this useless assignment; "modelo" already holds the assigned value along all execution paths.(‚š£Ëøÿÿÿÿ8šÿšã1
+ƒ
+java:S4165"gRemove this useless assignment; "matricula" already holds the assigned value along all execution paths.(ˆ§Ê[8šÿšã1
+O
+java:S11354"2Complete the task associated to this TODO comment.(‰¯¥8‘šÿšã1
+O
+java:S11359"2Complete the task associated to this TODO comment.(‰¯¥8“šÿšã1
+U
+java:S3400?"9Remove this method and declare a constant for this value.(¡ğ¬8Ğ¡ïœã1
+O
+java:S1135>"2Complete the task associated to this TODO comment.(‰¯¥8“šÿšã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(‚Ôã’øÿÿÿÿ8”šÿšã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(˜°¿™ûÿÿÿÿ8”šÿšã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(´ú´Üøÿÿÿÿ8”šÿšã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(‚š£Ëøÿÿÿÿ8”šÿšã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ÿ­ŒÜùÿÿÿÿ8”šÿšã1
+K
+java:S1656"/Remove or correct this useless self-assignment.(ˆ§Ê[8”šÿšã1
+X
+java:S1144=";Remove this unused private "calculaValoracionMedia" method.(ˆœÕ8•šÿšã1

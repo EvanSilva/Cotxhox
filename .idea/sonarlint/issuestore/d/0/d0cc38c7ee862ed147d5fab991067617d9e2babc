@@ -1,0 +1,45 @@
+
+‚
+java:S4165"eRemove this useless assignment; "propina" already holds the assigned value along all execution paths.(²õ§„8‘ƒ’œã1
+
+java:S4165"dRemove this useless assignment; "origen" already holds the assigned value along all execution paths.(èğÊö8’ƒ’œã1
+‚
+java:S4165"eRemove this useless assignment; "destino" already holds the assigned value along all execution paths.(õÀÉ¦8‘ƒ’œã1
+
+java:S4165"lRemove this useless assignment; "tarjetaCredito" already holds the assigned value along all execution paths.(ê–Å°ûÿÿÿÿ8’ƒ’œã1
+
+java:S4165"kRemove this useless assignment; "tiempoCarrera" already holds the assigned value along all execution paths.(‚È¹©ùÿÿÿÿ8‘ƒ’œã1
+„
+java:S4165"gRemove this useless assignment; "distancia" already holds the assigned value along all execution paths.(–ùÃÉ8‘ƒ’œã1
+‡
+java:S4165+"eRemove this useless assignment; "destino" already holds the assigned value along all execution paths.(—–Şâøÿÿÿÿ8’ƒ’œã1
+
+java:S4165"lRemove this useless assignment; "tiempoEsperado" already holds the assigned value along all execution paths.(Ñ’À×ıÿÿÿÿ8’ƒ’œã1
+…
+java:S4165"hRemove this useless assignment; "costeTotal" already holds the assigned value along all execution paths.(¹ßÔú8‘ƒ’œã1
+‰
+java:S4165"gRemove this useless assignment; "conductor" already holds the assigned value along all execution paths.(¾Û–»üÿÿÿÿ8‘ƒ’œã1
+K
+java:S1172".Remove this unused method parameter "carrera".(¬ÃÄŞ8“ƒ’œã1
+K
+java:S1172*".Remove this unused method parameter "destino".(ğ€¿™8”ƒ’œã1
+Q
+java:S1656+"/Remove or correct this useless self-assignment.(—–Şâøÿÿÿÿ8”ƒ’œã1
+T
+java:S1135:"2Complete the task associated to this TODO comment.(©¢±¯úÿÿÿÿ8•ƒ’œã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(Ñ’À×ıÿÿÿÿ8–ƒ’œã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(¹ßÔú8–ƒ’œã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(²õ§„8–ƒ’œã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(èğÊö8–ƒ’œã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(–ùÃÉ8–ƒ’œã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ê–Å°ûÿÿÿÿ8—ƒ’œã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(õÀÉ¦8—ƒ’œã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(‚È¹©ùÿÿÿÿ8—ƒ’œã1
