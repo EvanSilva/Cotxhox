@@ -50,7 +50,6 @@ public class Conductor {
     }
 
 
-
     public void setValoracion(byte valoracion){
         //todo todo todo todo todo todo todo
 

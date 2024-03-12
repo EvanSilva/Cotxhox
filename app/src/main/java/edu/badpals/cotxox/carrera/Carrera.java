@@ -1,5 +1,6 @@
 package edu.badpals.cotxox.carrera;
 import edu.badpals.cotxox.conductores.Conductor;
+import edu.badpals.cotxox.conductores.PoolConductores;
 import edu.badpals.cotxox.tarifa.Tarifa;
 
 public class Carrera {
@@ -65,5 +66,17 @@ public class Carrera {
 
     public void setTiempoCarrera(int tiempoCarrera) {
         this.tiempoCarrera = tiempoCarrera;
+    }
+
+    public void setConductor(Conductor conductor) {
+        this.conductor = conductor;
+    }
+
+    public void asignarConductor(PoolConductores listaConductores){
+        setConductor(listaConductores.asignarConductor());
+    }
+
+    public Conductor getConductor() {
+        return this.conductor;
     }
 }
