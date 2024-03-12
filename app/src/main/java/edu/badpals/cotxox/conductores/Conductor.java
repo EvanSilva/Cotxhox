@@ -14,14 +14,10 @@ public class Conductor {
     private List<Conductor> valoraciones = new ArrayList<>();
 
     public Conductor() {
+    }
 
+    public Conductor(String nombre) {
         this.nombre = nombre;
-        this.modelo = modelo;
-        this.matricula = matricula;
-        this.valoracionMedia = valoracionMedia;
-        this.ocupado = ocupado;
-        this.valoraciones = valoraciones;
-
     }
 
     public String getNombre() {
@@ -52,6 +48,8 @@ public class Conductor {
         //todo todo todo todo todo todo todo
         return 0;
     }
+
+
 
     public void setValoracion(byte valoracion){
         //todo todo todo todo todo todo todo

@@ -17,3 +17,5 @@ g
 7app/src/main/java/edu/badpals/cotxox/tarifa/Tarifa.java,f\1\f15ef0bd3d16704524bfdc4e615d4f6e05036bb9
 d
 4app/src/test/java/edu/badpals/cotxox/TestTarifa.java,e\d\ed04a68bff4b29ae3a75fd6ca30aa33264009033
+u
+Eapp/src/main/java/edu/badpals/cotxox/conductores/PoolConductores.java,4\d\4d9cd492f0209ed107d26c01cf9456e8801b05fc

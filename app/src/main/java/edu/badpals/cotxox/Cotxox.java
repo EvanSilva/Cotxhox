@@ -1,6 +1,7 @@
 package edu.badpals.cotxox;
-
 import edu.badpals.cotxox.carrera.Carrera;
+import edu.badpals.cotxox.conductores.Conductor;
+import edu.badpals.cotxox.conductores.PoolConductores;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +49,7 @@ public class Cotxox {
          * para ofrecer el servicio.
          * La flota es un objeto de tipo PoolConductores.
          */
-/**
+
         List<Conductor> poolConductores = new ArrayList<Conductor>();
         Conductor conductor = null;
 
@@ -77,7 +78,7 @@ public class Cotxox {
         PoolConductores conductores = new PoolConductores(poolConductores);
 
         /* Seleccion del conductor en la flota y asignacion a la carrera */
-/**
+
         carrera.asignarConductor(conductores);
 
         // Info por pantalla

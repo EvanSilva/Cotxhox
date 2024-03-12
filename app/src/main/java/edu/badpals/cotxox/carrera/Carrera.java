@@ -4,7 +4,6 @@ import edu.badpals.cotxox.tarifa.Tarifa;
 
 public class Carrera {
 
-
     private String tarjetaCredito = "";
     private String origen = "";
     private String destino = "";
@@ -15,19 +14,11 @@ public class Carrera {
     private int propina = 0;
     private Conductor conductor = null;
 
-    public Carrera(String carrera) {
+    public Carrera(String tarjetaCredito) {
         this.tarjetaCredito = tarjetaCredito;
-        this.origen = origen;
-        this.destino = destino;
-        this.distancia = distancia;
-        this.tiempoEsperado = tiempoEsperado;
-        this.tiempoCarrera = tiempoCarrera;
-        this.costeTotal = costeTotal;
-        this.propina = propina;
-        this.conductor = conductor;
     }
 
-    public String getTarjetaCredito() {
+    public String getTarjetaCredito(){
         return this.tarjetaCredito;
     }
 
@@ -40,7 +31,7 @@ public class Carrera {
     }
 
     public void setDestino(String destino) {
-        this.destino = this.destino;
+        this.destino = destino;
     }
 
     public String getDestino() {

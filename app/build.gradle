@@ -36,7 +36,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'edu.badpals.cotxox.App'
+    mainClass = 'edu.badpals.cotxox.Cotxox'
 }
 
 tasks.named('test') {
@@ -47,10 +47,10 @@ tasks.named('test') {
 // ESTO
 jar {
     manifest {
-        attributes 'Main-Class' : 'edu.badpals.cotxox.Stockx',
-                'Package-Title' : 'stockx',
+        attributes 'Main-Class' : 'edu.badpals.cotxox.Cotxox',
+                'Package-Title' : 'Cotox',
                 'Package-Version': '1.0',
                 'Package-Vendor' : 'evan',
-                'Specification-Title' : 'Examen Stockx'
+                'Specification-Title' : 'Examen Cotxox'
     }
 }
