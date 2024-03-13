@@ -1,8 +1,6 @@
 
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-a
-1app/src/test/java/edu/badpals/cotxox/AppTest.java,f\8\f8e88b28cd8f888eaf678f220ed4639b94b19901
 `
 0app/src/main/java/edu/badpals/cotxox/Cotxox.java,9\d\9dbca614c0f5bbcef615d3afae5cefb6a8974d88
 i
@@ -11,8 +9,6 @@ i
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 o
 ?app/src/main/java/edu/badpals/cotxox/conductores/Conductor.java,b\4\b48d08e5a1b47d51753d3bb43c046266e6771134
-`
-0app/src/main/java/edu/badpals/cotxox/Tarifa.java,8\0\80d35b7368b7bafdf0c60d953afec816bb0196fc
 g
 7app/src/main/java/edu/badpals/cotxox/tarifa/Tarifa.java,f\1\f15ef0bd3d16704524bfdc4e615d4f6e05036bb9
 d

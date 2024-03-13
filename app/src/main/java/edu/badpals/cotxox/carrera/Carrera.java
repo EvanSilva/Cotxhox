@@ -3,6 +3,8 @@ import edu.badpals.cotxox.conductores.Conductor;
 import edu.badpals.cotxox.conductores.PoolConductores;
 import edu.badpals.cotxox.tarifa.Tarifa;
 
+import static edu.badpals.cotxox.tarifa.Tarifa.getCosteTotalEsperado;
+
 public class Carrera {
 
     private String tarjetaCredito = "";
@@ -47,9 +49,12 @@ public class Carrera {
         return this.distancia;
     }
 
-    // TODO TODO TODO TODO TODO TODO TODO TODO
-    public Double getCosteEsperado() {
-        return 0.0;
+    public double getCosteEsperado() {
+        return Tarifa.getCosteTotalEsperado(this);
+    }
+
+    public double getCosteTotal(){
+        return getCosteEsperado() + getPropina();
     }
 
     public int getTiempoEsperado() {
@@ -79,4 +84,22 @@ public class Carrera {
     public Conductor getConductor() {
         return this.conductor;
     }
+
+    public void realizarPago(double coste) {
+        this.costeTotal = coste;
+    }
+
+     public void recibirPropina(int propina){
+        this.propina = propina;
+     }
+
+     public int getPropina(){
+        return this.propina;
+     }
+
+     public void liberarConductor(){
+        this.conductor.setOcupado(false);
+     }
+
+
 }

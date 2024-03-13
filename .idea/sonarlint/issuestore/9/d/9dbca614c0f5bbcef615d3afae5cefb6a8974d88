@@ -1,27 +1,55 @@
 
 v
-java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(ê‘Î¯8©°Ìã1
-d
-java:S1192"GDefine a constant instead of duplicating this literal "#####
-" 3 times.(¥êÖ®8ª°Ìã1
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(ê‘Î¯8ÈÆã1
 d
 java:S1192"GDefine a constant instead of duplicating this literal "
-#####" 3 times.(¥êÖ®8ª°Ìã1
-G	java:S106"+Replace this use of System.out by a logger.(¥êÖ®8¯°Ìã1
+#####" 5 times.(¥êÖ®8ÈÆã1
+i
+java:S1192!"GDefine a constant instead of duplicating this literal "From: " 3 times.(§¬»ùÿÿÿÿ8ÈÆã1
+k
+java:S1192V"IDefine a constant instead of duplicating this literal "Driver: " 3 times.(ÚÚú‡úÿÿÿÿ8ÈÆã1
+d
+java:S1192"GDefine a constant instead of duplicating this literal "#####
+" 5 times.(¥êÖ®8ÉÆã1
+i
+java:S1192 "GDefine a constant instead of duplicating this literal "Visa: " 3 times.(ÿÄ¦øÿÿÿÿ8ÉÆã1
+G	java:S106"+Replace this use of System.out by a logger.(¥êÖ®8æÆã1
 O
-java:S6126"2Replace this String concatenation with Text block.(¥êÖ®8¯°Ìã1
-L	java:S106 "+Replace this use of System.out by a logger.(ÿÄ¦øÿÿÿÿ8¯°Ìã1
-L	java:S106!"+Replace this use of System.out by a logger.(§¬»ùÿÿÿÿ8¯°Ìã1
-L	java:S106""+Replace this use of System.out by a logger.(ˆ³°ñıÿÿÿÿ8¯°Ìã1
-G	java:S106#"+Replace this use of System.out by a logger.(”²Ú8¯°Ìã1
-L	java:S106%"+Replace this use of System.out by a logger.(¢¼¶ñøÿÿÿÿ8¯°Ìã1
+java:S6126"2Replace this String concatenation with Text block.(¥êÖ®8æÆã1
+L	java:S106 "+Replace this use of System.out by a logger.(ÿÄ¦øÿÿÿÿ8æÆã1
+L	java:S106!"+Replace this use of System.out by a logger.(§¬»ùÿÿÿÿ8æÆã1
+L	java:S106""+Replace this use of System.out by a logger.(ˆ³°ñıÿÿÿÿ8çÆã1
+G	java:S106#"+Replace this use of System.out by a logger.(”²Ú8çÆã1
+L	java:S106%"+Replace this use of System.out by a logger.(¢¼¶ñøÿÿÿÿ8çÆã1
 T
-java:S6126%"2Replace this String concatenation with Text block.(¢¼¶ñøÿÿÿÿ8¯°Ìã1
-L	java:S106'"+Replace this use of System.out by a logger.(ÿÄ¦øÿÿÿÿ8¯°Ìã1
-L	java:S106("+Replace this use of System.out by a logger.(§¬»ùÿÿÿÿ8°°Ìã1
-L	java:S106)"+Replace this use of System.out by a logger.(ˆ³°ñıÿÿÿÿ8°°Ìã1
-G	java:S106*"+Replace this use of System.out by a logger.(”²Ú8°°Ìã1
-L	java:S106+"+Replace this use of System.out by a logger.(ŸéİĞÿÿÿÿÿ8°°Ìã1
-G	java:S106-"+Replace this use of System.out by a logger.(Ùß‡8°°Ìã1
+java:S6126%"2Replace this String concatenation with Text block.(¢¼¶ñøÿÿÿÿ8çÆã1
+L	java:S106'"+Replace this use of System.out by a logger.(ÿÄ¦øÿÿÿÿ8çÆã1
+L	java:S106("+Replace this use of System.out by a logger.(§¬»ùÿÿÿÿ8èÆã1
+L	java:S106)"+Replace this use of System.out by a logger.(ˆ³°ñıÿÿÿÿ8èÆã1
+G	java:S106*"+Replace this use of System.out by a logger.(”²Ú8èÆã1
+L	java:S106+"+Replace this use of System.out by a logger.(ŸéİĞÿÿÿÿÿ8èÆã1
+G	java:S106-"+Replace this use of System.out by a logger.(Ùß‡8éÆã1
 O
-java:S6126-"2Replace this String concatenation with Text block.(Ùß‡8°°Ìã1
+java:S6126-"2Replace this String concatenation with Text block.(Ùß‡8éÆã1
+L	java:S106V"+Replace this use of System.out by a logger.(ÚÚú‡úÿÿÿÿ8ëÆã1
+L	java:S106W"+Replace this use of System.out by a logger.(œ¬·ÿûÿÿÿÿ8ëÆã1
+G	java:S106X"+Replace this use of System.out by a logger.(ı§´´8ìÆã1
+G	java:S106Y"+Replace this use of System.out by a logger.(íÚ¦Ç8ìÆã1
+L	java:S106Z"+Replace this use of System.out by a logger.(§¬»ùÿÿÿÿ8ìÆã1
+L	java:S106["+Replace this use of System.out by a logger.(ˆ³°ñıÿÿÿÿ8íÆã1
+L	java:S106^"+Replace this use of System.out by a logger.(÷îÑ¤ıÿÿÿÿ8íÆã1
+L	java:S106`"+Replace this use of System.out by a logger.(™§Óúÿÿÿÿ8íÆã1
+L	java:S106e"+Replace this use of System.out by a logger.(…ØÆ¢ûÿÿÿÿ8íÆã1
+T
+java:S6126e"2Replace this String concatenation with Text block.(…ØÆ¢ûÿÿÿÿ8íÆã1
+L	java:S106l"+Replace this use of System.out by a logger.(ÚÚú‡úÿÿÿÿ8îÆã1
+G	java:S106m"+Replace this use of System.out by a logger.(ã»ºò8îÆã1
+L	java:S106n"+Replace this use of System.out by a logger.(ÿÄ¦øÿÿÿÿ8îÆã1
+G	java:S106o"+Replace this use of System.out by a logger.(úÄ«ë8ïÆã1
+G	java:S106p"+Replace this use of System.out by a logger.(Ş“–ã8ïÆã1
+G	java:S106s"+Replace this use of System.out by a logger.(«Ùò‰8ïÆã1
+O
+java:S6126s"2Replace this String concatenation with Text block.(«Ùò‰8ïÆã1
+L	java:S106w"+Replace this use of System.out by a logger.(ÚÚú‡úÿÿÿÿ8ğÆã1
+G	java:S106x"+Replace this use of System.out by a logger.(íÚ¦Ç8ğÆã1
+L	java:S106y"+Replace this use of System.out by a logger.(ŸÛµÎùÿÿÿÿ8ŞÍ·Çã1

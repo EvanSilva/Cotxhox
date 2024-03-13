@@ -82,7 +82,7 @@ public class Cotxox {
         carrera.asignarConductor(conductores);
 
         // Info por pantalla
-/**
+
         System.out.println("Driver: " + carrera.getConductor().getNombre());
         System.out.println("Type: " + carrera.getConductor().getModelo());
         System.out.println("Matricula: " + carrera.getConductor().getMatricula());
@@ -104,11 +104,13 @@ public class Cotxox {
         carrera.recibirPropina(1);
         carrera.liberarConductor();
 
+
         System.out.println("Driver: " + carrera.getConductor().getNombre());
         System.out.println("TIP: " + carrera.getPropina());
         System.out.println("Visa: " + carrera.getTarjetaCredito());
         System.out.println("Total: " + carrera.getCosteTotal());
         System.out.println("Ocupado?: " + carrera.getConductor().isOcupado());
+
 
         System.out.println("\n#####" + "\t Rate your driver: \t" + "#####\n");
 
@@ -116,7 +118,7 @@ public class Cotxox {
 
         System.out.println("Driver: " + carrera.getConductor().getNombre());
         System.out.println("Stars: " + carrera.getConductor().getValoracion());
+        System.out.println("Media: " + carrera.getConductor().getValoracionMedia());
 
-**/
     }
 }

@@ -33,4 +33,12 @@ public class TestTarifa {
         carrera.setTiempoEsperado(10);
         assertEquals(13.96,carrera.getCosteEsperado(),0.01);
     }
+
+    @Test
+    public void testCosteTotal2(){
+        Carrera carrera = new Carrera("4916119711304546");
+        carrera.setDistancia(1000D);
+        carrera.setTiempoEsperado(2000);
+        assertEquals(2050,carrera.getCosteEsperado(),0.01);
+    }
 }

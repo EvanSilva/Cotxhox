@@ -11,7 +11,7 @@ public class Conductor {
     private String matricula = "";
     private Double valoracionMedia = 0.0;
     private boolean ocupado = false;
-    private List<Conductor> valoraciones = new ArrayList<>();
+    private List<Byte> valoraciones = new ArrayList<>();
 
     public Conductor() {
     }
@@ -40,24 +40,37 @@ public class Conductor {
         this.matricula = matricula;
     }
 
+    public List<Byte> getValoracion() {
+        return this.valoraciones;
+    }
+
     public Double getValoracionMedia() {
         return this.valoracionMedia;
     }
 
     public int getNumeroValoraciones() {
-        //todo todo todo todo todo todo todo
-        return 0;
+        return valoraciones.size();
     }
 
 
     public void setValoracion(byte valoracion){
-        //todo todo todo todo todo todo todo
 
+        valoraciones.add(valoracion);
+        double mediaValoraciones = calculaValoracionMedia();
+        this.valoracionMedia = mediaValoraciones;
     }
 
     private double calculaValoracionMedia(){
-        //todo todo todo todo todo todo todo
-        return 0.0;
+
+        double sumaValoraciones = 0.0;
+
+        for (Byte estaValoracion: valoraciones){
+            sumaValoraciones = estaValoracion + sumaValoraciones;
+        }
+
+        double mediaValoraciones = sumaValoraciones / getNumeroValoraciones();
+        return mediaValoraciones;
+
     }
 
     public void setOcupado(boolean ocupado) {

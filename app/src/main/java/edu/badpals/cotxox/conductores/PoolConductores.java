@@ -17,14 +17,13 @@ public class PoolConductores {
 
     public Conductor asignarConductor (){
 
-        Conductor conductor = null
+        Conductor conductor = null;
 
         for (Conductor posibleConductor :conductores){
 
             if (!posibleConductor.isOcupado()) {
                 posibleConductor.setOcupado(true);
                 return posibleConductor;
-                break;
             } else {continue;}
         }
         return conductor;
